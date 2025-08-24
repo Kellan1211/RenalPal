@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28926085941",
+    "project_id": "renalpal",
+    "storage_bucket": "renalpal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28926085941:android:6fd79a261073ba0e7b1a7c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACKTFxzU669mHNCM7_Ep4eo_3O5ue_u0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
