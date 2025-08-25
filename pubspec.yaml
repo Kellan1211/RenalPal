@@ -2,7 +2,7 @@
 name: renalpal
 description: "RenalPal – Your trusted kidney health companion app."
 publish_to: 'none'
-version: 1.2.0+3
+version: 1.3.0+4
 
 
 # Dart SDK requirement
