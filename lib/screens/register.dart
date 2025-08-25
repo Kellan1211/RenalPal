@@ -49,7 +49,7 @@ class _RegisterPageState extends State<RegisterPage> {
         password: _passwordController.text.trim(),
       );
 
-      // Save user info to Firestore
+      // Save user info to Firestore (with default role = "user")
       await FirebaseFirestore.instance
           .collection('users')
           .doc(userCredential.user!.uid)
@@ -57,6 +57,7 @@ class _RegisterPageState extends State<RegisterPage> {
         'firstName': _firstNameController.text.trim(),
         'lastName': _lastNameController.text.trim(),
         'email': _emailController.text.trim(),
+        'role': 'user', // 👈 add default role here
         'createdAt': FieldValue.serverTimestamp(),
       });
 
